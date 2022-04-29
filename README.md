@@ -1,4 +1,4 @@
-# PWD2021 TP Final
+# PWD2022 Aplicación de preguntas y respuestas
 
 Este trabajo consiste en completar el desarrollo de la aplicación de un juego de preguntas y respuestas definida durante la cursada del 2022. Con este trabajo podrán confirmar conocimientos como:
 
@@ -19,6 +19,7 @@ Este trabajo consiste en completar el desarrollo de la aplicación de un juego d
 - **Github** y **Git** como almacenamiento del repositorio y ejecución de los tests (a través de docker).
 - **Slim** como _microservicio_ para una api rest (servidor de datos).
 - **PHPStan** como herramienta de análisis estático del código.
+- **Vite** como herramienta de desarrollo de VueJS.
 - Conceptos de HTTP y comunicación asincrónica.
 - Uso del comando `curl` para probar llamadas HTTP a la API JSON.
 
@@ -32,7 +33,6 @@ Todas las recomendaciones para manejar el trabajo las pueden encontrar en el arc
 - Verificar que los tests pasen.
 - Respetar las reglas definidas en la teoría respecto a los namespaces. Ignorar el uso correcto de mayúsculas y minúsculas será motivo para pedir rehacer el trabajo.
 - Manejar bien los errores esperados.
-- Completar todos los objetivos del TP.
 
 ## Aspectos a considerar
 
