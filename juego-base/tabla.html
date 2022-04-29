@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabla</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css" media="screen" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="list-inline">
+          <li><a href="preguntas.html">Preguntas</a></li>
+          <li><a href="juego.html">Juego</a></li>
+          <li><a href="acercade.html">Acerca de</a></li>
+          <li><a href="tabla.html">Tabla</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="cuerpo">
+      <section>
+        <h2>Tabla de jugadores</h2>
+        <div class="tabla_scroll">
+          <table>
+            <thead>
+              <tr>
+                <th colspan="3">Mejores Registros</th>
+              </tr>
+              <tr>
+                <td rowspan="2">Jugador</td>
+                <td colspan="2">Resultados</td>
+              </tr>
+              <tr>
+                <td>Mejor resultado</td>
+                <td>Último resultado</td>
+              </tr>
+            </thead>
+            <tbody id="highScoresTable"></tbody>
+          </table>
+        </div>
+        <button class="button" id="playAgain">Jugar de nuevo</button>
+      </section>
+    </div>
+    <script src="tabla.js"></script>
+  </body>
+</html>

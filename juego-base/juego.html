@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Juego</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css" media="screen" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="list-inline">
+          <li><a href="preguntas.html">Preguntas</a></li>
+          <li><a href="juego.html">Juego</a></li>
+          <li><a href="acercade.html">Acerca de</a></li>
+          <li><a href="tabla.html">Tabla</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="cuerpo">
+      <section>
+        <h2 id="progressText">Pregunta</h2>
+        <h3 id="question">Enunciado</h3>
+        <ol class="list-answer">
+          <li class="choice-text" data-number="1">Respuesta 1</li>
+          <li class="choice-text" data-number="2">Respuesta 2</li>
+          <li class="choice-text" data-number="3">Respuesta 3</li>
+          <li class="choice-text" data-number="4">Respuesta 4</li>
+        </ol>
+      </section>
+      <footer>
+        <div id="hud-item">
+          <p class="hud-prefix">Score</p>
+          <p class="hud-main-text" id="score">0</p>
+        </div>
+      </footer>
+    </div>
+    <script src="juego.js"></script>
+  </body>
+</html>
