@@ -67,3 +67,5 @@ Todas las recomendaciones para manejar el trabajo las pueden encontrar en el arc
 - [ ] Información del usuario (registro.html).
 
 ## Actualizaciones
+
+10-05-22: se agrega vue-router para manejo de las rutas de la aplicación.
