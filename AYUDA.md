@@ -4,6 +4,8 @@
 
 ## Configurar como ejecutables los archivos de sincronización de repo
 
+> Este comando es solamente para usuarios de linux.
+
 ```sh
 chmod 755 config/*.sh
 ```
@@ -19,6 +21,20 @@ chmod 755 config/*.sh
 ```sh
 ./config/merge
 ```
+
+Llegado el caso que haya que resolver conflictos, los pasos a través de VSCode realizar son:
+
+- Ir al menú Control de Código fuente (Source Control).
+- Cliquear en el primer archivo con el ícono (!) en rojo.
+- Buscar cada sección que haya con conflictos.
+- Por cada sección, elegir:
+  - Los cambios propios (_Accept current changes_).
+  - Los cambios externos (_Accept incoming changes_).
+  - Ambos, para editar los dos en el caso de que se quiera parte de cada bloque (_Accept both changes_).
+    ![Conflictos en merge](docs/merge_conflict.jpg)
+- Una vez que el archivo no tenga más conflictos, tenemos que quitarlo del estado de conflictivo. Para eso hay que darle al ícono (+) que está a la derecha del nombre del archivo en el listado de archivos.
+- Luego de que todos los archivos hayan resuelto los conflictos, damos clic al botón de confirmar commit.
+  ![Confirmar commit](docs/confirm_commit.jpg)
 
 ## Comandos útiles
 
