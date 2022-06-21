@@ -2,7 +2,7 @@
 <phpunit colors="true" bootstrap="./env.php" printerClass="Sempro\PHPUnitPrettyPrinter\PrettyPrinterForPhpUnit9">
     <testsuites>
         <testsuite name="Unitarios">
-            <directory>src</directory>
+            <directory>server</directory>
         </testsuite>
     </testsuites>
 </phpunit>

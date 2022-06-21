@@ -4,8 +4,8 @@
     "esbenp.prettier-vscode",
     "swordev.phpstan",
     "mhutchie.git-graph",
-    "johnsoncodehk.volar",
-    "xdebug.php-debug"
+    "xdebug.php-debug",
+    "Vue.volar"
   ],
   "unwantedRecommendations": []
 }
