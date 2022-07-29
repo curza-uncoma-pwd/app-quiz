@@ -66,6 +66,15 @@ Todas las recomendaciones para manejar el trabajo las pueden encontrar en el arc
 - [ ] Juego (juego.html).
 - [ ] Información del usuario (registro.html).
 
+### 2. Crear las clases del Modelo con sus tests asociados.
+
+- [ ] Jugador.
+- [ ] Quiz.
+- [ ] Pregunta.
+- [ ] Respuesta.
+
+Las responsabilidades de cada clase están definidas en los tests.
+
 ## Actualizaciones
 
 10-05-22: se agrega vue-router para manejo de las rutas de la aplicación.

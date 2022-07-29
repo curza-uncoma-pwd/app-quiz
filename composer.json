@@ -4,6 +4,14 @@
   "type": "project",
   "license": "MIT",
   "minimum-stability": "stable",
+  "scripts": {
+    "phpmig": "phpmig",
+    "migrar": "phpmig rollback -t 0 && phpmig migrate",
+    "hidratar": "phpmig rollback -b ./hidratador.php -t 0 && phpmig migrate -b ./hidratador.php",
+    "crear:migracion": "phpmig generate",
+    "crear:hidratacion": "phpmig generate -b ./hidratador.php",
+    "test": "php ./vendor/bin/phpunit"
+  },
   "autoload": {
     "psr-4": {
       "Raiz\\": "server/"
